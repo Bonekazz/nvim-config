@@ -5,6 +5,7 @@ Plug 'morhetz/gruvbox'
 Plug 'sxhk0/zhxo.nvim'
 Plug 'savq/melange-nvim'
 Plug 'scottmckendry/cyberdream.nvim'
+Plug 'gambhirsharma/vesper.nvim'
 
 " PLUGINS
 Plug 'https://github.com/m4xshen/autoclose.nvim'        " 

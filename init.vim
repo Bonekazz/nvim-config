@@ -7,7 +7,21 @@ source $HOME\AppData\Local\nvim\config\mapings.vim
 source $HOME\AppData\Local\nvim\config\settings.vim
 
 
-:lua require("oil").setup()
+:lua << EOF
+require("oil").setup({
+    keymaps = {
+        ["<C-S-h>"] = "actions.select_split",
+        ["<C-S-l>"] = "actions.refresh",
+    },
+    view_options = {
+        show_hidden = true,
+    },
+    float = {
+        padding = 2,
+        border = "rounded",
+    }
+})
+EOF
 " :lua require("transparent").setup()
 
 :lua << EOF
