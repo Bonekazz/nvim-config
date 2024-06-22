@@ -16,12 +16,11 @@ Plug 'jiangmiao/auto-pairs'                             " this will auto close (
 Plug 'stevearc/oil.nvim'                                " file explorer
 " Plug 'xiyaowong/transparent.nvim'                       " window transparency
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}           " multiple terminals
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}         " snippets
+Plug 'neoclide/coc.nvim', {'branch': 'release'}         " snippets
 
 " LSP AND SNIPPETS
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
-"
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'

@@ -1,11 +1,11 @@
-:lua vim.diagnostic.config({virtual_text = true, signs = false, underline = false,})
+:lua vim.diagnostic.config({virtual_text = true, signs = false, underline = false})
 
-:lua require("mason").setup()
 :lua << EOF
+require("mason").setup()
 require("mason-lspconfig").setup({
     ensure_installed = {
         html, jsonls, tsserver, autotools_ls,
-        markdown_oxide, basedpyright, tailwindcss, 
+        markdown_oxide, basedpyright, tailwindcss
     },
     automatic_instalation = true,
 })
