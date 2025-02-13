@@ -6,6 +6,11 @@ Plug 'sxhk0/zhxo.nvim'
 Plug 'savq/melange-nvim'
 Plug 'scottmckendry/cyberdream.nvim'
 Plug 'gambhirsharma/vesper.nvim'
+Plug 'jackplus-xyz/binary.nvim'
+Plug 'jaredgorski/fogbell.vim'
+Plug 'widatama/vim-phoenix'
+Plug 'axvr/photon.vim'
+Plug 'nikolvs/vim-sunbather'
 
 " PLUGINS
 Plug 'https://github.com/m4xshen/autoclose.nvim'        " 
@@ -16,7 +21,7 @@ Plug 'jiangmiao/auto-pairs'                             " this will auto close (
 Plug 'stevearc/oil.nvim'                                " file explorer
 " Plug 'xiyaowong/transparent.nvim'                       " window transparency
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}           " multiple terminals
-Plug 'neoclide/coc.nvim', {'branch': 'release'}         " snippets
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}         " snippets
 
 " LSP AND SNIPPETS
 Plug 'williamboman/mason.nvim'
@@ -32,6 +37,12 @@ Plug 'hrsh7th/vim-vsnip'
 
 " STATUS LINE
 Plug 'nvim-lualine/lualine.nvim'
+
+"Errors 
+Plug 'dmmulroy/ts-error-translator.nvim'
+
+" Hover plugin
+Plug 'lewis6991/hover.nvim'
 
 call plug#end()
 

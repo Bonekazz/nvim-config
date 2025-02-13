@@ -29,3 +29,12 @@ noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 40, 4)<CR>
 :tnoremap <Esc> <C-\><C-n>
 
 :nnoremap <C-S-CR> <o><Esc><O><Esc>
+
+vmap <C-c> "+y
+
+" Ctrl + z / Ctrl + Shift + Z
+:noremap <C-z> u
+:noremap <C-S-z> <C-r>
+
+:vmap <f> g_
+:vmap <F> ^
