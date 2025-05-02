@@ -1,6 +1,6 @@
 set termguicolors
-" colorscheme gruvbox 
-colorscheme melange
+colorscheme gruvbox 
+" colorscheme melange
 
 set number
 set numberwidth=2
